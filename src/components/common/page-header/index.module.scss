@@ -1,0 +1,19 @@
+.pageHeader{
+    background-image: linear-gradient(270deg, #db9948, #f28e16, #db9948);
+    text-align: center;
+    padding: 20px 5px;
+    position: relative;
+
+    span{
+        position: relative;
+        z-index: 1;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        top:0; left:0; right:0; bottom:0;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgogIDxyZWN0IHdpZHRoPSc1JyBoZWlnaHQ9JzUnIGZpbGw9J3doaXRlJy8+CiAgPHBhdGggZD0nTTAgNUw1IDBaTTYgNEw0IDZaTS0xIDFMMSAtMVonIHN0cm9rZT0nIzg4OCcgc3Ryb2tlLXdpZHRoPScxJy8+Cjwvc3ZnPg==");
+        opacity: 0.3;
+    }
+}

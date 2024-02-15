@@ -1,0 +1,6 @@
+[
+    {"id":1, "title":"Home", "url":"/", "prefetch":true},
+    {"id":2, "title":"Products", "url":"/products", "prefetch":true},
+    {"id":3, "title":"About", "url":"/about", "prefetch":true},
+    {"id":4, "title":"Contact", "url":"/contact", "prefetch":true}
+]

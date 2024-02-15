@@ -1,0 +1,9 @@
+
+.testComp{
+    a{
+        font-size: 3rem;
+        &:hover{
+            background-color: red;
+        }
+    }
+}
